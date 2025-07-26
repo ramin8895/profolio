@@ -1,0 +1,18 @@
+# docker-compose.yml برای پنل عمومی
+
+
+services:
+  profolio:
+    build: .
+    container_name: profolio-container
+    restart: always
+    
+    expose:
+      - "3003"
+
+    networks:
+      - my-shared-network
+
+networks:
+  my-shared-network:
+    external: true
