@@ -5,6 +5,7 @@ import HeroComponents from "../Hero";
 import Services from "../Services";
 import Education from "../Education";
 import WorkHistory from "../WorkHistory";
+import ProjectsComponents from "../projectsComponents";
 
 const Section = () => {
   return (
@@ -20,6 +21,9 @@ const Section = () => {
       </div>
       <div>
         <WorkHistory />
+      </div>
+      <div>
+        <ProjectsComponents />
       </div>
     </div>
   );
