@@ -4,10 +4,11 @@ import React from "react";
 import HeroComponents from "../Hero";
 import Services from "../Services";
 import Education from "../Education";
+import WorkHistory from "../WorkHistory";
 
 const Section = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 w-full">
       <div>
         <HeroComponents />
       </div>
@@ -16,6 +17,9 @@ const Section = () => {
       </div>
       <div>
         <Education />
+      </div>
+      <div>
+        <WorkHistory />
       </div>
     </div>
   );
