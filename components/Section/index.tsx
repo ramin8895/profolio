@@ -6,6 +6,7 @@ import Services from "../Services";
 import Education from "../Education";
 import WorkHistory from "../WorkHistory";
 import ProjectsComponents from "../projectsComponents";
+import ContactInformation from "../ContactInformation";
 
 const Section = () => {
   return (
@@ -24,6 +25,9 @@ const Section = () => {
       </div>
       <div>
         <ProjectsComponents />
+      </div>
+      <div>
+        <ContactInformation />
       </div>
     </div>
   );

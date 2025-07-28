@@ -1,8 +1,10 @@
 "use client";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const ProjectsComponents = () => {
+  const router = useRouter();
   return (
     <section className="py-12  ">
       <div className="text-center mb-10">
@@ -15,7 +17,46 @@ const ProjectsComponents = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+        <div
+          onClick={() => router.push("https://calendro.ir/")}
+          className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300"
+        >
+          <Image
+            width={400}
+            height={250}
+            alt="Calendro Project"
+            src="/proimage/calendro.png"
+            className="w-full h-auto object-cover"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-semibold text-gray-800">Calendro</h3>
+            <p className="text-gray-500 mt-1 text-sm">
+              A modern calendar app for productivity and scheduling.
+            </p>
+          </div>
+        </div>
+        <div
+          onClick={() => router.push("https://calendro.ir/")}
+          className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300"
+        >
+          <Image
+            width={400}
+            height={250}
+            alt="Calendro Project"
+            src="/proimage/calendro.png"
+            className="w-full h-auto object-cover"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-semibold text-gray-800">Calendro</h3>
+            <p className="text-gray-500 mt-1 text-sm">
+              A modern calendar app for productivity and scheduling.
+            </p>
+          </div>
+        </div>
+        <div
+          onClick={() => router.push("https://calendro.ir/")}
+          className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300"
+        >
           <Image
             width={400}
             height={250}
