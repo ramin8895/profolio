@@ -17,7 +17,7 @@ const services = [
   },
   {
     icon: "/svg/set-up-svgrepo-com.svg",
-    title: ". Back-End Development",
+    title: "Back-End Development",
     description:
       "I build powerful back-end systems, APIs, and databases using Node.js, Express, and PostgreSQL  to support complex applications.",
   },

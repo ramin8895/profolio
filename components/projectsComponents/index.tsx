@@ -34,41 +34,12 @@ const ProjectsComponents = () => {
               A modern calendar app for productivity and scheduling.
             </p>
           </div>
-        </div>
-        <div
-          onClick={() => router.push("https://calendro.ir/")}
-          className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300"
-        >
-          <Image
-            width={400}
-            height={250}
-            alt="Calendro Project"
-            src="/proimage/calendro.png"
-            className="w-full h-auto object-cover"
-          />
-          <div className="p-4">
-            <h3 className="text-xl font-semibold text-gray-800">Calendro</h3>
-            <p className="text-gray-500 mt-1 text-sm">
-              A modern calendar app for productivity and scheduling.
-            </p>
-          </div>
-        </div>
-        <div
-          onClick={() => router.push("https://calendro.ir/")}
-          className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300"
-        >
-          <Image
-            width={400}
-            height={250}
-            alt="Calendro Project"
-            src="/proimage/calendro.png"
-            className="w-full h-auto object-cover"
-          />
-          <div className="p-4">
-            <h3 className="text-xl font-semibold text-gray-800">Calendro</h3>
-            <p className="text-gray-500 mt-1 text-sm">
-              A modern calendar app for productivity and scheduling.
-            </p>
+          <div className="p-3 flex flex-wrap justify-center  gap-3">
+            <h3 className="bg-gray-300 p-1 rounded-md">Next.js</h3>
+            <h3 className="bg-gray-300 p-1 rounded-md">Node.js</h3>
+            <h3 className="bg-gray-300 p-1 rounded-md">Express.js</h3>
+            <h3 className="bg-gray-300 p-1 rounded-md">Antd</h3>
+            <h3 className="bg-gray-300 p-1 rounded-md">TailwindCss </h3>
           </div>
         </div>
       </div>

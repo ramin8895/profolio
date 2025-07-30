@@ -7,15 +7,15 @@ import SkillBar from "../ProgressBar";
 const SideBarSkile = () => {
   return (
     <div className="flex flex-col items-center gap-y-4 p-4 bg-white rounded-lg">
-      <div className="">
+      {/* <div className="">
         <Image
-          className="rounded-full bg-red-400"
-          width={120}
-          height={120}
-          src={""}
-          alt=""
+          width={385}
+          height={385}
+          className="w-full h-full mix-blend-multiply rounded-full"
+          src={"/imageOne.jpg"}
+          alt="imageOne.jpg"
         />
-      </div>
+      </div> */}
       <div className=" text-gray-600 text-center font-bold ">
         <p>Ramin hamepour</p>
         <p className="text-gray-500">Front End Developer</p>

@@ -4,8 +4,8 @@ import React from "react";
 
 const HeroComponents = () => {
   return (
-    <div className=" w-full ">
-      <div className="bg-white rounded-lg relative sm:h-[467px]    p-10 flex flex-col sm:flex-row justify-between ">
+    <div className=" bg-white w-full ">
+      <div className=" rounded-lg relative sm:h-[467px]    p-10 flex flex-col sm:flex-row justify-between ">
         <div className=" flex-col sm:w-1/2 w-full justify-center items-center">
           <h1 className="   font-bold text-[48px] ">
             I’m Ramin Hamepour
@@ -17,6 +17,13 @@ const HeroComponents = () => {
             until they reach their desired outcome. I believe effective teamwork
             plays a key role in the success of any project.
           </div>
+          <a
+            href="/raminHamepour-1-2.pdf"
+            download
+            className="font-bold underline text-orange-400 text-lg"
+          >
+            Download Resume
+          </a>
         </div>
         <div className="mt-10">
           <Image
@@ -28,7 +35,6 @@ const HeroComponents = () => {
           />
         </div>
       </div>
-      <div></div>
     </div>
   );
 };
