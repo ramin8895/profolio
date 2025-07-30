@@ -25,7 +25,7 @@ const ContactInformation = () => {
           </div>
           <h3 className="font-semibold text-lg mt-4">Email Address</h3>
           <p className="text-gray-600 mt-2 text-sm break-words">
-            johndoe@example.com
+            raminhamepour89@gmail.com
           </p>
         </div>
 
