@@ -24,8 +24,8 @@ const SideBarSkile = () => {
       <div className="w-full border-b-2 border-gray-300"></div>
       <div className=" w-full text-gray-600 font-semibold flex flex-col gap-y-2">
         <div className="  flex justify-between">
-          <p>age : </p>
-          <p>21</p>
+          <p>Birthday : </p>
+          <p>30/11/2003</p>
         </div>
         <div className="flex justify-between">
           <p>Phone : </p>
