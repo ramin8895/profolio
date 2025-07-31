@@ -31,7 +31,7 @@ const ProjectsComponents = () => {
           <div className="p-4">
             <h3 className="text-xl font-semibold text-gray-800">Calendro</h3>
             <p className="text-gray-500 mt-1 text-sm">
-              A modern calendar app for productivity and scheduling.
+              a simple and fast app for managing and booking daily appointments.
             </p>
           </div>
           <div className="p-3 flex flex-wrap justify-center  gap-3">

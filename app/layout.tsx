@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "I'm Ramin Hamepour, a passionate web developer specialized in React, Next.js, and building modern, responsive websites. Check out my projects and resume.",
   keywords:
-    "Web Developer, Frontend Developer, React Developer, Next.js, Portfolio, JavaScript, HTML, CSS, Tailwind, Remote Developer",
+    "Web Developer, Frontend Developer, React Developer, Next.js, Portfolio, JavaScript, HTML, CSS, Tailwind, Remote Developer , رامین حمه پور , برنامه نویس , فرانت اند , برنامه نویس وب , نوبت دخی آنلاین , ",
   authors: [{ name: "Ramin Hamepour" }],
   viewport: "width=device-width, initial-scale=1.0",
   other: {
