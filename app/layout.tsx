@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     keywords:
       "Web Developer, Frontend Developer, React Developer, Next.js, Portfolio, JavaScript, HTML, CSS, Tailwind, Remote Developer",
   },
+  icons: {
+    icon: "/imageOne.jpg",
+  },
 };
 
 export default function RootLayout({
